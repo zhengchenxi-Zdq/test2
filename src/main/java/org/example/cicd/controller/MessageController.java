@@ -8,7 +8,7 @@ public class MessageController {
 
     @GetMapping("/message")
     public String getMessage(){
-        return "hello";
+        return "hello,test";
     }
 
 }
